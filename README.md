@@ -47,6 +47,7 @@ let result = api.updateOne('users', where, set)
     },
     response: []
 }
+```
 ### api.updateAll(table, where, set)
 updates every row that is valid for updating
 example:
