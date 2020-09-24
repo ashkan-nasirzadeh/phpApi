@@ -1,11 +1,11 @@
 # phpApi
 simple functions/classes that u need when u r developing an api with PHP
 ## CRUD
-### api_addRow(table, data)
+### api.addRow(table, data)
 example:
 ```
 let nUser = {'fname': 'john', 'lname': 'martin'}
-let result = api_addRow('users', nUser)
+let result = api.addRow('users', nUser)
 // result = {
     'success': true,
     'status': {
@@ -15,11 +15,11 @@ let result = api_addRow('users', nUser)
     response: []
 }
 ```
-### api_readRow(table, data)
+### api.readRow(table, data)
 example:
 ```
 let reRow = {'fname': 'john'}
-let result = api_readRow('users', reRow)
+let result = api.readRow('users', reRow)
 // result = {
     'success': true,
     'status': {
@@ -31,13 +31,13 @@ let result = api_readRow('users', reRow)
         {'ID': '57', 'fname': 'john', 'lname': 'lopez', 'cell': '+78914624', 'status': 'offline'}
     ]
 }
-### api_updateOne(table, where, set)
+### api.updateOne(table, where, set)
 updates a row if there is only one row valid for updating
 example:
 ```
 let where = {'fname': 'john'}
 let set = {'status': 'online', 'cell': '+10101010'}
-let result = api_updateOne('users', where, set)
+let result = api.updateOne('users', where, set)
 // result = {
     'success': true,
     'status': {
@@ -46,13 +46,13 @@ let result = api_updateOne('users', where, set)
     },
     response: []
 }
-### api_updateAll(table, where, set)
+### api.updateAll(table, where, set)
 updates every row that is valid for updating
 example:
 ```
 let where = {'fname': 'john'}
 let set = {'status': 'online', 'cell': '+10101010'}
-let result = api_updateAll('users', where, set)
+let result = api.updateAll('users', where, set)
 // result = {
     'success': true,
     'status': {
@@ -61,12 +61,13 @@ let result = api_updateAll('users', where, set)
     },
     response: []
 }
-### api_dropOne(table, where)
+```
+### api.dropOne(table, where)
 drop a row if there is only one row valid for droping
 example:
 ```
 let where = {'fname': 'john'}
-let result = api_dropOne('users', where)
+let result = api.dropOne('users', where)
 // result = {
     'success': true,
     'status': {
@@ -75,12 +76,13 @@ let result = api_dropOne('users', where)
     },
     response: []
 }
-### api_dropAll(table, where)
+```
+### api.dropAll(table, where)
 drop every row that is valid for droping
 example:
 ```
 let where = {'fname': 'john'}
-let result = api_dropAll('users', where)
+let result = api.dropAll('users', where)
 // result = {
     'success': true,
     'status': {
