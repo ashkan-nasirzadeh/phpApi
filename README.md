@@ -31,6 +31,7 @@ let result = api.readRow('users', reRow)
         {'ID': '57', 'fname': 'john', 'lname': 'lopez', 'cell': '+78914624', 'status': 'offline'}
     ]
 }
+```
 ### api.updateOne(table, where, set)
 updates a row if there is only one row valid for updating
 example:
