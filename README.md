@@ -1,9 +1,13 @@
 # phpApi
 simple functions/classes that u need when u r developing an api with PHP
 ## usage
-in your `.js` file :
+in your front-end `.js` file :
 ```
 npm install php-api --save
+```
+```
+const phpAPI = require('php-api')
+var api = new phpAPI('serverName', 'uName', 'pass', 'dbName')
 ```
 ## CRUD
 ### api.addRow(table, data)
