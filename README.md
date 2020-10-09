@@ -1,4 +1,4 @@
-# phpApi
+# phpApi-clientSide
 simple functions/classes that u need when u r developing an api with PHP
 ## usage
 in your front-end `.js` file :
