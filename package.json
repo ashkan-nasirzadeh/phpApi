@@ -43,7 +43,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
     "axios": "^0.20.0",
     "form-data": "^3.0.0"
