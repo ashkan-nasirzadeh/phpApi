@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kia_nasirzadeh/phpapi_serverside": "v1.0.4"
+    }
+}

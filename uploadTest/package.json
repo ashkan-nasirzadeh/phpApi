@@ -1,0 +1,22 @@
+{
+  "name": "uploadTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "kia_nasirzadeh/phpapi_serverside",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kia nasirzadeh",
+            "email": "ashkan.codecman.01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"phpAPI\\": ""}
+    },
+    "require": {}
+}

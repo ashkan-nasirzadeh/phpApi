@@ -1,0 +1,36 @@
+[
+    {
+        "name": "kia_nasirzadeh/phpapi_serverside",
+        "version": "v1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kia-nasirzadeh/phpAPI-serverSide.git",
+            "reference": "a2743b35614861dd8c9d385d86ee4296d2592abc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kia-nasirzadeh/phpAPI-serverSide/zipball/a2743b35614861dd8c9d385d86ee4296d2592abc",
+            "reference": "a2743b35614861dd8c9d385d86ee4296d2592abc",
+            "shasum": ""
+        },
+        "time": "2020-10-09T19:28:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "phpAPI\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "kia nasirzadeh",
+                "email": "ashkan.codecman.01@gmail.com"
+            }
+        ]
+    }
+]
